@@ -1,0 +1,85 @@
+:root{
+    --blue-color: #73BDA8;
+    --white-color: #ECE6C2;
+    --orange-color: #D2A24C;
+    --red-color: #CC6B49;
+    --brown-color: #6F5643;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--white-color);
+
+}
+/*=============NAVBAR=====================*/
+header > h1 {
+    padding: 0;
+    margin: 0 0 0 2rem;
+    color: var(--blue-color);
+    font-size: 3rem;
+
+}
+header {
+    flex:none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--brown-color);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 0.1rem;
+}
+.headerButtons {
+    display: flex;
+    margin-right: 2rem;
+}
+header p {
+
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    background-color: var(--white-color);
+    padding: 0.5rem;
+    border: 2px solid #847728;
+
+}
+header p:hover {
+    background-color: var(--orange-color);
+    border: none;
+    border-radius: 5px;
+}
+/*=================END OF NAVBAR=====================*/
+
+.page-wrapper {
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+.main {
+    flex-grow:1;
+}
+#tv {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+#tvButtons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 469px;
+    top: 235px;
+}
+#tvButtons button{
+    margin-top: 15px;
+    background-color: var(--white-color);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+
+}
+
+#tvButtons button:active{
+    background-color: #ffe95b;
+}
