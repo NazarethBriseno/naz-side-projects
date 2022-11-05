@@ -68,8 +68,9 @@ header p:hover {
     display: flex;
     flex-direction: column;
     position: absolute;
-    right: 469px;
     top: 235px;
+    left: 50%;
+    transform: translateX(1470%);
 }
 #tvButtons button{
     cursor: pointer;
