@@ -54,16 +54,20 @@ header p:hover {
     display:flex;
     flex-direction: column;
 }
-.main {
-    flex-grow:1;
-}
+
 #tv {
     display: flex;
     position: relative;
     justify-content: center;
-    margin-top: 1rem;
-    width: 100%;
+    margin: 5px auto;
 }
+/*img {*/
+/*    height: auto;*/
+/*    width: auto;*/
+/*    max-width: 300px;*/
+/*    max-height: 300px;*/
+/*}*/
+
 #tvButtons {
     display: flex;
     flex-direction: column;
@@ -71,6 +75,12 @@ header p:hover {
     top: 235px;
     left: 50%;
     transform: translateX(1470%);
+}
+#tv video {
+    position: absolute;
+    opacity: 50%;
+    left: 29%;
+    top: 10%;
 }
 #tvButtons button{
     cursor: pointer;
@@ -85,6 +95,7 @@ header p:hover {
 #tvButtons button:active{
     background-color: #ffe95b;
 }
+
 
 
 

@@ -1,0 +1,31 @@
+body{
+    background-color: #373772;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin:0;
+    background-color: #34349f;
+}
+
+#champions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.championIcons{
+    margin: 0.5rem;
+}
+.championIcons:hover{
+
+    border: 5px solid gold;
+    color: blue;
+    cursor: pointer;
+    -moz-box-shadow: 0 0 6px black;
+    -webkit-box-shadow: 0 0 6px black;
+    box-shadow: 0 0 10px black;
+}
